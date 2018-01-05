@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "ext test",
+    "description": "",
+    "version": "0.0.1",
+    "author": "null",
+	"options_page": "option.html",
+	"background": {
+        "scripts": [ "jquery-3.2.1.min.js" ]
+    },
+    "permissions": [
+      "file:///C:/Windows/system32/drivers/etc/hosts",
+      "file:///etc/hosts"
+    ]
+  }
